@@ -1,0 +1,53 @@
+.container{
+    
+}
+.card{
+    display: inline-block;
+    height: 516px;
+    width: 267px;
+    border: 1px solid black;
+    /* text-align: center; */
+    /* background-color: lightgray; */
+}
+img{
+    width: 100%;
+    padding-bottom: 10px;
+    /* border: 1px solid red; */
+}
+.description{
+    text-align: center;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    text-decoration: none !important;
+    text-transform: none !important;
+}
+.description:hover, img:hover {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+.description2{
+    float: left !important; 
+    line-height: 0px !important;
+    margin-left: 5px;
+}
+.rating{
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.price{
+    margin-left: 5px;
+
+}
+span{color: grey;}
+
+.shippingInfo{
+    margin-left: 5px;
+    margin-bottom: 10px;
+    line-height: 23px
+}
+a{
+    text-decoration: none;
+}
