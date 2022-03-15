@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Applecard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="Applestyle.css"> -->
+    <style>
+        body{
+            /* border: 2px solid blueviolet; */
+            height: 100vh;
+            width: 100vw;
+            background-color: #10e37f;
+        }
+        .container{
+            /* border: 3px dotted black; */
+            margin-left: 15vw;
+            margin-top: 15vh;
+            height: 70vh;
+            width: 50vw;
+        }
+        .box{
+            display: inline-block;
+            border: 2px solid red;
+            /* height: 100px ;
+            width: 100px; */
+        }
+        #box-1{
+            border: none;
+            /* display: inline-block; */
+
+            background-color: white ;
+            border-radius: 10px;
+            height: 70vh;
+            width: 40vw;
+            position: relative;
+            /* top: 10vh; */
+            left: 20vw;
+            
+        }
+        #box-2{
+            /* display: inline-block; */
+            background-color: #aae629;
+            background-image: radial-gradient(wheat #aae629);
+            border-radius: 10px;
+            border: none;
+            height: 60vh;
+            width: 20vw;
+            position:relative;
+            top: -400px;
+            left: -90px;
+        }
+        #box-2 >img{
+            width: 100%;
+            position: relative;
+            left: -70px;
+        }
+        #box-3{
+            border: none;
+            height:15vh; ;
+            width: 20vw;
+            background-color: white;
+            /* border-radius: 5px; */
+            position: relative;
+            top: 2vh;
+            /* left: 1vw; */
+            /* display: inline-block; */
+        }
+        .innerbox{
+            display: inline-block;
+            height: 8vh;
+            width: 4vw;
+            border: 1px solid wheat;
+            position: relative;
+            top: 4vh;
+            left: 2vw;
+        }
+        #box-4{
+            /* background-color: red; */
+            border-radius: 10px;
+            border: none;
+            height: 60vh;
+            width: 20vw;
+            position:relative;
+            top: 10px;
+            left: 240px;
+        }
+        .productInfo{
+            padding: 1vw;
+        }
+        .name{
+            font-size: 4vh;
+            padding-top: 6vh;
+            color: #4c4c4c;
+        }
+        .price{
+            color: #fe3f40;
+        }
+        span{
+            font-size: 8vh;
+        }
+        .colorbox{
+            display: inline-block;
+            height: 8vh;
+            width: 4vw;
+            border: 1px solid wheat;
+        }
+        .colorselectname, .benefits{
+            color: #a6a6a6;
+            font-size: 2vh;
+        }
+        #color-1{
+            border-color: black;        }
+        button{
+            background-color: #fe3f40;
+            color: white;
+            font-size: 2vh;
+            height: 5vh;
+            width: 10vw;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box-1">
+            <div class="box" id="box-4">
+               <div class="productInfo">
+                   <div class="name"><strong> Delicious Apples</strong></div>
+                   <div class="code">CODE: 45999 </div>
+                   <div class="price">R$ <span>7.93</span>  </div>
+                   <div class="colorselect">
+                       <div class="colorselectname">SELECT A COLOR</div>
+                       <div class="colorbox" id="color-1"><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png"
+                        alt="green apple"></div>
+                       <div class="colorbox" id="color-2"><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302752/codepen/delicious-apples/yellow-apple.png"
+                        alt="yellow apple"></div>
+                       <div class="colorbox" id="color-3"><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302427/codepen/delicious-apples/orange-apple.png"
+                        alt="orange apple"></div>
+                       <div class="colorbox" id="color-4"><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302285/codepen/delicious-apples/red-apple.png"
+                        alt="red apple"></div>
+                   </div><br>
+                   <div class="benefits">BENEFITS</div>
+                   <ul>
+					<li>Apples are nutricious</li>
+					<li>Apples may be good for weight loss</li>
+					<li>Apples may be good for bone health</li>
+					<li>They're linked to a lowest risk of diabetes</li>
+				</ul>
+                <div class="btn"><button>ADD TO CART</button></div>
+                </div>
+            </div>
+            <div class="box" id="box-2">
+                <img src="https://res.cloudinary.com/john-mantas/image/upload/v1537291846/codepen/delicious-apples/green-apple-with-slice.png" alt="green apple slice">
+                <div class="box" id="box-3">
+
+                    <div class="innerbox" id="ibox-1">
+                        <img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png" alt="">
+                    </div>
+                    <div class="innerbox" id="ibox-2">
+                        <img src="https://res.cloudinary.com/john-mantas/image/upload/v1537303532/codepen/delicious-apples/half-apple.png" alt="">
+                    </div>
+                    <div class="innerbox" id="ibox-3">
+                        <img src="https://res.cloudinary.com/john-mantas/image/upload/v1537303160/codepen/delicious-apples/green-apple-flipped.png" alt="">
+                    </div>
+                    <div class="innerbox" id="ibox-4">
+                        <img src="https://res.cloudinary.com/john-mantas/image/upload/v1537303708/codepen/delicious-apples/apple-top.png" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
